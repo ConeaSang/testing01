@@ -1,0 +1,66 @@
+
+git config --global -e
+
+git config --global user.name "<xxxName>"
+git config --global user.email <xxxEmail>
+
+git config --global core.editor "code -w"
+
+git config --global init.defaultBranch main
+git branch -m main
+
+---------- ---------- ---------- ---------- ---------- 
+
+git init
+
+git clone <repo>
+
+---------- ---------- ---------- ---------- ---------- 
+
+git commit 
+
+git add "xxxFileName" (git add .)  
+git commit -m "xxxComment"
+
+git commit -am "xxxComment"
+
+git push
+git pull
+
+---------- ---------- ---------- ---------- ---------- 
+
+git status
+
+git log 
+git log --oneline
+git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit                  
+
+git branch -v
+
+git switch -c ft/url
+
+git switch main	
+git switch ft/url
+
+git merge ft/url
+
+git remote add origin https://github.com/ConeaSang/testing01.git
+git branch -M main
+git push -u origin main
+
+git remote set-url origin https://github.com/WasinSanguansuk/testing01.git
+
+git remote -v
+
+
+
+
+
+
+
+
+
+
+
+
+
