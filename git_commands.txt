@@ -1,5 +1,5 @@
 
-git config --global -e
+git config --global -e (git config --global --edit)
 
 git config --global user.name "<xxxName>"
 git config --global user.email <xxxEmail>
@@ -19,7 +19,7 @@ git clone <repo>
 
 git commit 
 
-git add "xxxFileName" (git add .)  
+git add "xxxFileName" (git add . ---> add everything)  
 git commit -m "xxxComment"
 
 git commit -am "xxxComment"
@@ -34,6 +34,8 @@ git status
 git log 
 git log --oneline
 git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit                  
+git log -p 	(Display the full diff of each commit)
+git log --stat 	(Include which files were altered and the relative number of lines that were added or deleted from each of them.)
 
 git branch -v
 
@@ -51,6 +53,8 @@ git push -u origin main
 git remote set-url origin https://github.com/WasinSanguansuk/testing01.git
 
 git remote -v
+
+git diff
 
 
 
