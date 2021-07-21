@@ -1,5 +1,7 @@
 
-git config --global -e (git config --global --edit)
+[_Global Setting_]
+
+git config --global -e 		(git config --global --edit ---> the same)
 
 git config --global user.name "<xxxName>"
 git config --global user.email <xxxEmail>
@@ -11,16 +13,34 @@ git branch -m main
 
 ---------- ---------- ---------- ---------- ---------- 
 
-git init
+[_init_]
 
-git clone <repo>
+git init
+git add "xxxFileName" 		(git add . ---> to add everything)  
+git commit -m "xxxComment"
+git branch -m main 		(to change "master" to "main")
+---> Create the repository in the GitHub website and get the URL
+git remote add origin https://github.com/WasinSanguansuk/sql-basics01.git
+git branch -M main
+git push -u origin main
+
+[_clone_]
+
+git clone https://github.com/WasinSanguansuk/sql-basics01.git
 
 ---------- ---------- ---------- ---------- ---------- 
 
+[_commit_]
+
 git commit 
+---> Add comment and description in the editor (code)
+
+or
 
 git add "xxxFileName" (git add . ---> add everything)  
 git commit -m "xxxComment"
+
+or
 
 git commit -am "xxxComment"
 
@@ -46,11 +66,7 @@ git switch ft/url
 
 git merge ft/url
 
-git remote add origin https://github.com/ConeaSang/testing01.git
-git branch -M main
-git push -u origin main
-
-git remote set-url origin https://github.com/WasinSanguansuk/testing01.git
+git remote set-url origin https://github.com/WasinSanguansuk/sql-basics01.git
 
 git remote -v
 
