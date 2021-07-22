@@ -51,6 +51,13 @@ git pull
 
 git status
 
+man git-ls-files					(Open manu for git-ls-files)
+git ls-files						(List tracked files)
+git ls-files --ignored --exclude-standard		(List tracked files that are ignored)
+git ls-files --others					(List untracked files)
+git ls-files --other --ignored --exclude-standard	(List untracked files that are ignored)
+git ls-files --other --exclude-standard			(List untracked files that are not ignored)
+
 git log 
 git log --oneline
 git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit                  
