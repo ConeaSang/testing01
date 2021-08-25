@@ -1,17 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,text
-# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,text
-
-### Text ###
-*.doc
-*.docx
-*.log
-*.msg
-*.pages
-*.rtf
-*.txt
-*.wpd
-*.wps
+# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode
 
 ### VisualStudioCode ###
 .vscode/*
@@ -29,4 +18,5 @@
 .history
 .ionide
 
-# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,text
+# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode
+
