@@ -83,6 +83,8 @@ git diff
 
 [_ Merging Branches _]
 
+YouTube video - How to resolve merge conflicts in Git - https://www.youtube.com/watch?v=xNVM5UxlFSA
+
 git branch -v			(:q or Ctrl+z ---> to exit)
 git branch my-branch
 git branch his-branch
