@@ -49,6 +49,8 @@ git pull
 
 ---------- ---------- ---------- ---------- ---------- 
 
+[_ Other Commands _]
+
 git status
 
 man git-ls-files					(Open manu for git-ls-files)
@@ -109,7 +111,13 @@ git push
 
 ---------- ---------- ---------- ---------- ---------- 
 
+[_ Pull from main branch _]
 
+git checkout my-branch      # gets you on "branch my-branch"
+git fetch origin            # gets you up to date with origin
+git merge main
+
+---------- ---------- ---------- ---------- ---------- 
 
 
 
