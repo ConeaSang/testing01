@@ -89,6 +89,8 @@ git branch his-branch
 
 git checkout his-branch
 
+git merge his-branch
+
 
 
 
