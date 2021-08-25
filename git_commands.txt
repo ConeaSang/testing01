@@ -83,7 +83,7 @@ git diff
 
 [_ Merging Branches _]
 
-git branch -v
+git branch -v			(:q to exit)
 git branch my-branch
 git branch his-branch
 
