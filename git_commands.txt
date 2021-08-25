@@ -83,21 +83,29 @@ git diff
 
 [_ Merging Branches _]
 
-<<<<<<< HEAD
-git branch -v			(Ctrl+z to exit)
-=======
-git branch -v			(:q to exit)
->>>>>>> my-branch
+git branch -v			(:q or Ctrl+z ---> to exit)
 git branch my-branch
 git branch his-branch
 
 git checkout his-branch
 
-git merge his-branch
+(modified something)
 
+git checkout my-branch
 
+(modified something at the same line)
 
+git merge his-branch    (this will cause merge conflicts; have to choose the solution)
 
+git merge --abort 	    (in case, want to abort the merge)
+
+(after solving the conflicts)
+
+git add .
+git commit -am "Merge his-branch and solved the conflicts"
+git push
+
+---------- ---------- ---------- ---------- ---------- 
 
 
 
