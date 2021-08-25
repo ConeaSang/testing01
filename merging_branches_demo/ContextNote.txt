@@ -1,1 +1,7 @@
 This is the note from main branch.
+
+Red
+Blue 
+Green
+
+
