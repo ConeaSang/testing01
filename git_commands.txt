@@ -1,5 +1,5 @@
 
-[_Global Setting_]
+[_ Global Setting _]
 
 git config --global -e 		(git config --global --edit ---> the same)
 
@@ -13,7 +13,7 @@ git branch -m main
 
 ---------- ---------- ---------- ---------- ---------- 
 
-[_init_]
+[_ init _]
 
 git init
 git add "xxxFileName" 		(git add . ---> to add everything)  
@@ -30,7 +30,7 @@ git clone https://github.com/WasinSanguansuk/sql-basics01.git
 
 ---------- ---------- ---------- ---------- ---------- 
 
-[_commit_]
+[_ commit _]
 
 git commit 
 ---> Add comment and description in the editor (code)
@@ -78,6 +78,16 @@ git remote set-url origin https://github.com/WasinSanguansuk/sql-basics01.git
 git remote -v
 
 git diff
+
+---------- ---------- ---------- ---------- ---------- 
+
+[_ Merging Branches _]
+
+git branch -v
+git branch my-branch
+git branch his-branch
+
+git checkout his-branch
 
 
 
