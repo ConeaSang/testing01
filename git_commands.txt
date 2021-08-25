@@ -83,11 +83,17 @@ git diff
 
 [_ Merging Branches _]
 
+<<<<<<< HEAD
 git branch -v			(Ctrl+z to exit)
+=======
+git branch -v			(:q to exit)
+>>>>>>> my-branch
 git branch my-branch
 git branch his-branch
 
 git checkout his-branch
+
+git merge his-branch
 
 
 
